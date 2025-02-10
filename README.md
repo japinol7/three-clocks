@@ -98,8 +98,11 @@
 
 **Examples of usage**
 
-    > Run program:
-       $ python -m threeclocks
+    Run the game:
+      $ python -m threeclocks
+
+	Run the game starting in full screen mode:
+      $ python -m threeclocks -f
 <br /> <br />
 
 
