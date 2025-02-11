@@ -20,7 +20,7 @@ SCORE_BAR_HEIGHT = 64
 LOG_START_APP_MSG = f"Start app {APP_TECH_NAME} version: {version.get_version()}"
 LOG_END_APP_MSG = f"End app {APP_TECH_NAME}"
 
-APP_WEBSITE_URL = "https://github.com/japinol7/threeclocks"
+APP_WEBSITE_URL = "https://github.com/japinol7/three-clocks"
 
 LOG_FILE = os.path.join(
     'logs', f"log_{datetime.now().strftime('%Y-%m-%d_%H_%M_%S_%f')}.log")
