@@ -305,7 +305,8 @@ class Game:
                         if pg.key.get_mods() & pg.KMOD_LALT \
                                 and self.can_user_leave_game:
                             self.is_full_screen_switch = True
-                elif event.type == pg.MOUSEBUTTONDOWN:
+                elif event.type == pg.MOUSEBUTTONDOWN \
+                     and pg.mouse.get_pressed(num_buttons=3)[0]:
                     self.mouse_pos = pg.mouse.get_pos()
                     self.handle_sprite_selector()
 
